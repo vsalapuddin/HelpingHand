@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
     return (
         <div>
-            Vince = gay
+            Joe = Pedo
         </div>
     );
 }
