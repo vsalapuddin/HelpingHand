@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
     return (
         <div>
-            Joe = Super Super Pedo
+            Joe = Super Ultra Instinct Pedo
         </div>
     );
 }
