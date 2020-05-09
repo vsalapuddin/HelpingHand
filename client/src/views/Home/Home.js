@@ -12,22 +12,22 @@ document.body.style = 'background: #A095BF;';
 function Home() {
     return (
         <div>
-
-            <Navbar bg="light" variant="light">
-                <Navbar.Brand href="#home">HelpingHand</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Jobs</Nav.Link>
-                    <Nav.Link href="#pricing">Log In</Nav.Link>
-                </Nav>
-            </Navbar>
+        {/*Move to right */}
+    <Navbar bg="light" variant="light">
+    <Navbar.Brand href="#home">HelpingHand</Navbar.Brand>
+        <Nav className="mr-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Jobs</Nav.Link>
+            <Nav.Link href="#pricing">Log In</Nav.Link>
+        </Nav>
+    </Navbar>
 
 
             <p className="landingPageTitle">
                 HelpingHand
             </p>
-            <Button variant="light" className="buttonTitle1" href="#">I am looking to help!</Button> {' '}
-            <Button variant="light" className="buttonTitle2" href="/User">I am looking for helpers!</Button> {' '}
+        <Button variant="light" className="buttonTitle1" href="/Helper">I am looking to help!</Button> {' '}
+         <Button variant="light" className="buttonTitle2" href="/User">I am looking for helpers!</Button> {' '}
         </div >
     );
 }
