@@ -12,7 +12,7 @@ document.body.style = 'background: #A095BF;';
 function Home() {
     return (
         <div>
-
+        {/*Move to right */}
     <Navbar bg="light" variant="light">
     <Navbar.Brand href="#home">HelpingHand</Navbar.Brand>
         <Nav className="mr-auto">
@@ -23,11 +23,12 @@ function Home() {
     </Navbar>
 
 
+
             <p className="landingPageTitle">
             HelpingHand
             </p>
-        <Button variant="light" className="buttonTitle1" href="#">I am looking for work!</Button> {' '}
-        <Button variant="light" className="buttonTitle2" href="#">I am looking for workers!</Button> {' '}
+        <Button variant="light" className="buttonTitle1" href="/Helper">I am looking to help!</Button> {' '}
+        <Button variant="light" className="buttonTitle2" href="#">I am looking for helpers!</Button> {' '}
         </div>
     );
 }
