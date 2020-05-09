@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg';
 import './Home.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,Navbar, Nav, Form, FormControl} from 'react-bootstrap';
+import { Button, Navbar, Nav, Form, FormControl } from 'react-bootstrap';
 
 
 document.body.style = 'background: #A095BF;';
@@ -23,13 +23,12 @@ function Home() {
     </Navbar>
 
 
-
             <p className="landingPageTitle">
-            HelpingHand
+                HelpingHand
             </p>
         <Button variant="light" className="buttonTitle1" href="/Helper">I am looking to help!</Button> {' '}
-        <Button variant="light" className="buttonTitle2" href="#">I am looking for helpers!</Button> {' '}
-        </div>
+         <Button variant="light" className="buttonTitle2" href="/User">I am looking for helpers!</Button> {' '}
+        </div >
     );
 }
 
