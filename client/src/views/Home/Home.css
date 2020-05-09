@@ -1,27 +1,36 @@
-body {
+
+
+.landingPageTitle {
     margin: 0;
-}
-
-.App {
-    text-align: center;
-    background: #282c34;
-}
-
-.App-logo {
-    height: 40vmin;
-}
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color:A095BF;
+    font-size: 75px;
+    
 }
 
-.App-link {
-    color: #09d3ac;
+.buttonTitle1 {
+    
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-113%, -50%);
+    font-size: 75px;
+    
+}
+.buttonTitle2 {
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(0%, -50%);
+    font-size: 75px;
 }
